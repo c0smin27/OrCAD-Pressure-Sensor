@@ -1,6 +1,6 @@
 # OrCAD Pressure Sensor
 
-## Circuit for pressure control in a hyperbaric chamber
+## Circuit for pressure control in a hyperbaric chamber <br>
 
 **Information and constraints for the circuit** <br>
 
