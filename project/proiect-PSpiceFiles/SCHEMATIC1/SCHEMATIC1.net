@@ -1,0 +1,39 @@
+* source PROIECT
+Q_Q1         N00064 N00064 +14V BC557A 
+Q_Q2         N00200 N00064 +14V BC557A 
+R_R1         0 N00064 R_R1 60.4k TC=0,0 
+.model        R_R1 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R0         0 N00200 R_R0 {R} TC=0,0 
+.model        R_R0 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R7         N03901 +14V R_R7 8.06k TC=0,0 
+.model        R_R7 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R8         0 N03901 R_R8 5.9k TC=0,0 
+.model        R_R8 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R11         N01329 +14V R_R11 210 TC=0,0 
+.model        R_R11 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R9         N19182 N00670 R_R9 100 TC=0,0 
+.model        R_R9 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+V_Vcc         +14V 0 14Vdc
+V_-Vcc         -14V 0 -14Vdc
+R_R2         N00281 N12345 R_R2 1k TC=0,0 
+.model        R_R2 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R3         0 N12345 R_R3 10k TC=0,0 
+.model        R_R3 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R6         N12363 N12382 R_R6 10k TC=0,0 
+.model        R_R6 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+D_D1         N19182 0 BLUE_LED 
+R_R10         N00670 N25516 R_R10 500 TC=0,0 
+.model        R_R10 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R5         0 N26782 R_R5 4.81k TC=0,0 
+.model        R_R5 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+R_R4         N26782 +14V R_R4 9.2k TC=0,0 
+.model        R_R4 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+X_U1A         N00200 N00281 +14V -14V N00281 LM358
+X_U1B         N12345 N12363 +14V -14V N12382 LM358
+X_U2A         N26782 N26696 +14V -14V N26696 LM358
+X_U3A         N03901 N00685 +14V -14V N00685 LM358
+X_U2B         N12382 N00685 +14V -14V N00670 LM358
+R_R12         N12363 N26696 R_R12 1k TC=0,0 
+.model        R_R12 RES R=1     DEV/UNIFORM 1%/1% TC1=0 TC2=0
+Q_Q3         N01329 N25516 0 BC639_1 
+.PARAM  r=20k
