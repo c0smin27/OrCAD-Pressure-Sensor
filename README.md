@@ -11,7 +11,7 @@ The pressure sensor is current-biased, and its electrical resistance varies line
 Pressure control is achieved through a **pump**, which is activated or deactivated using a **comparator** and an **electromagnetic relay**. The pump-relay assembly is modeled using a resistor. <br>
 The operational status of the pump (on/off) is indicated by a **blue LED**. <br>
 
-![](https://raw.githubusercontent.com/c0smin27/OrCAD-Pressure-Sensor/refs/heads/main/PROIECT.png)
+![](https://raw.githubusercontent.com/c0smin27/OrCAD-Pressure-Sensor/refs/heads/main/readme.png)
 
 ## Disclaimer
 This project was created as part of an academic assignment. Feel free to use it for learning purposes, but please do not submit it as your own work in educational settings.
