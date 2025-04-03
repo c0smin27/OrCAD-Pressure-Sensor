@@ -1,10 +1,17 @@
-# OrCAD Pressure Sensor
+# OrCAD – Pressure Sensor Project
 
-## Circuit for pressure control in a hyperbaric chamber <br>
+## Circuit Description
 
-**Information and constraints for the circuit** <br>
+This project involves designing a pressure control system for a hyperbaric chamber. <br>
+The pressure sensor used in the system can measure pressure linearly in the range of **1050 to 1530 mBar**. <br>
+<br>
+The system is designed to maintain the pressure inside the hyperbaric chamber within the range of **1200 to 1400 mBar**. <br>
+The pressure sensor is current-biased, and its electrical resistance varies linearly from **20kΩ to 25kΩ** depending on pressure. This resistance variation must be converted into a voltage range of **0V to 12V**, with a supply voltage of **Vcc = 14V**. <br>
+<br>
+Pressure control is achieved through a **pump**, which is activated or deactivated using a **comparator** and an **electromagnetic relay**. The pump-relay assembly is modeled using a resistor. <br>
+The operational status of the pump (on/off) is indicated by a **blue LED**. <br>
 
-Design a pressure control system in a hyperbaric chamber. Knowing that the pressure sensor used can measure pressure linearly in the range 1050-1530 [mBar], the system will be designed so that the pressure in the hyperbaric chamber is maintained in the range 1200-1400 [mBar]. The pressure sensor will be biased into the current. The linear variation of the electrical resistance of the sensor with pressure is 20k-25k [ohm] and must be converted to a voltage variation in the range [0V - 12V] where Vcc = 14[V]. In the hyperbaric chamber, the pressure is maintained in the specified range by means of a pump, controlled by a comparator and an electromagnetic relay. The pump-relay assembly will be modelled using a resistor. The pump status (on/off) is signalled by a blue LED.
+![](https://raw.githubusercontent.com/c0smin27/OrCAD-Pressure-Sensor/refs/heads/main/PROIECT.png)
 
-📃 [Documentation]() <br>
-💾 [Project]() <br>
+## Disclaimer
+This project was created as part of an academic assignment. Feel free to use it for learning purposes, but please do not submit it as your own work in educational settings.
