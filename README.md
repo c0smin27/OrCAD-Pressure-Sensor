@@ -19,7 +19,7 @@ project/
  └─ blue_led.ind
  └─ blue_led.lib
  └─ proiect-PSpiceFiles/
-      └─ simulation
+      └─ SCHEMATIC1/
            └─ SCHEMATIC1.ALS
            └─ SCHEMATIC1.net
            └─ SCHEMATIC1.sch.prp
