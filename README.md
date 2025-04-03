@@ -24,6 +24,8 @@ project/
            └─ simulare1.sim
 </pre>
 
+## Block diagram
+
 ![](https://raw.githubusercontent.com/c0smin27/OrCAD-Pressure-Sensor/refs/heads/main/readme.png)
 
 ## Disclaimer
